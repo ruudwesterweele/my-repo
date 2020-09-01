@@ -2,7 +2,9 @@
 title: "Test R markdown GitHub"
 author: "R. Westerweele"
 date: "1-9-2020"
-output: html_document
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}

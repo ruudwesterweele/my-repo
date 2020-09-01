@@ -5,11 +5,9 @@
 #'output: github_document
 #'---
 
-#+r setup, include=FALSE
-#'knitr::opts_chunk$set(echo = FALSE)
+#+ r setup, include=FALSE
+#+ knitr::opts_chunk$set(echo = FALSE)
 
-
-#+{r}
 c <- cars
 plot(cars$dist[[5]])
 print('this is a dot')

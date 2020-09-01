@@ -3,8 +3,6 @@ Test\_2
 R. Westerweele
 1-9-2020
 
-knitr::opts\_chunk$set(echo = FALSE)
-
 ``` r
 c <- cars
 plot(cars$dist[[5]])
